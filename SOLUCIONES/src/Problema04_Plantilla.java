@@ -14,7 +14,7 @@ public class Problema04_Plantilla {
             switch (sc.nextInt()) {
                 case 1:
                     System.out.println("Ingrese el nombre del Cliente");
-                    nombre = sc.nextLine();
+                    nombre = sc.next();
                     System.out.println("Ingrese sus cédula");
                     sc = new Scanner(System.in);
                     id = sc.nextInt();
